@@ -1,4 +1,5 @@
-🌎 MyCIP: CANADIAN IMMIGRATION PATHWAYS
+🌎 MyCIP: CANADIAN IMMIGRATION PATHWAYS : https://mycip.ca
+
 MyCIP (Canadian Immigration Pathways) is a modern web application built to simplify and support the immigration journey to Canada. Navigating Canadian immigration can be confusing, especially with various provincial programs and eligibility rules. MyCIP consolidates this fragmented information into one user-friendly platform, helping prospective immigrants make informed decisions with clarity and confidence.
 
 🚀 WHY MYCIP EXISTS
