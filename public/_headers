@@ -1,0 +1,23 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.supabase.co; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://images.unsplash.com https://upload.wikimedia.org; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://api.bigdatacloud.net; frame-ancestors 'none'; form-action 'self'; base-uri 'self'; upgrade-insecure-requests;
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Feature-Policy: camera 'none'; microphone 'none'; geolocation 'none'
+  Expect-CT: max-age=86400, enforce
+  NEL: {"report_to": "default", "max_age": 31536000, "include_subdomains": true}
+  Report-To: {"group": "default", "max_age": 31536000, "endpoints": [{"url": "https://mycip.ca/_report"}], "include_subdomains": true}
+
+/auth/*
+  Cache-Control: no-store, max-age=0
+  Clear-Site-Data: "*"
+
+/reset-password
+  Cache-Control: no-store, max-age=0
+  Clear-Site-Data: "*"

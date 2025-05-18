@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive routes
+Disallow: /auth/
+Disallow: /reset-password
+Disallow: /login
+
+Sitemap: https://mycip.ca/sitemap.xml

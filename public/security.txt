@@ -1,0 +1,7 @@
+# Security Policy
+Contact: mailto:abutalha7778@gmail.com
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://mycip.ca/.well-known/security.txt
+Policy: https://mycip.ca/security-policy
+Hiring: https://mycip.ca/careers
